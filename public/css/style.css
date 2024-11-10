@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(236, 234, 234);
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 10px;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.container{
+    padding-top: 10px;
+}
+
+.button{
+    padding: 10px 10px;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.button-add{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+
+.button-add:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+}
+
+.table-data{
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    padding: 15px 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Bayangan sederhana */}
+
+table{
+    border: 1px solid white;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    text-align: center; /* Teks tengah dalam sel */
+}
+
+th{
+    background-color: orangered;
+    height: 35px;
+}
+
+td{
+    background-color: rgb(250, 204, 178);
+    height: 25px;
+    text-align: left;
+    padding-left: 8px;
+}
+
+.aksi-button{
+    display: flex;
+    justify-content: center;
+}
+
+#show{
+    background-color: rgb(12, 82, 243);
+    margin-right: 5px;
+}
+
+#hapus{
+    background-color: red;
+    margin-left: 5px;
+}
+
+#edit{
+    background-color: yellow;
+}
+
+#hapus, #edit, #show{
+    width: 50px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    color: black;
+    font-family: 'Times New Roman';
+}
+
+#show:hover, #hapus:hover, #edit:hover{
+    color: red;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.simpan{
+    background-color: rgb(42, 249, 42);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.simpan:hover{
+    background-color: green;
+    color: white;
+}
+
+.container-show{
+    display: flex;
+    justify-content: center;
+
+}
+
+.form{
+    background-color: white;
+    padding: 15px 20px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Bayangan sederhana */
+
+}
+
+.show{
+    text-align: left;
+    height: 30px;
+    padding-left: 15px;
+}
+
+.back-button{
+    display: flex;
+    margin-top: 20px;
+}
+#back, .simpan{
+    text-decoration: none;
+    background-color:rgb(28, 65, 255);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#back:hover{
+    transform: scale(1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #2980b9;
+}
+
